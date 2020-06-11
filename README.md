@@ -40,17 +40,15 @@ In this lab i will show you how to use Google Video Intelligence Api
   Now your data set is created .
   ```bash
     - From the import create new CSV file provided by TRAIN,TEST 
-    ```bash
-      TRAIN,gs://"name of your bucket"/"The csv file you just created with the script".
-      TEST,gs://"name of your bucket"/"ANOTHER CSV FILE YOU WILL CREATE WITH THE SCRIPT WITH ANOTHER VIDEO".
-    ```
+   
+        TRAIN,gs://"name of your bucket"/"The csv file you just created with the script".
+        TEST,gs://"name of your bucket"/"ANOTHER CSV FILE YOU WILL CREATE WITH THE SCRIPT WITH ANOTHER VIDEO".
+    
     - From the video you can add new label or modify your labels segments .
     - Train your model (this could take several hours) .
     - When your model is ready you can test it .
-      ```bash
         - Create new prediction csv file provided by the video you want to test .
         - Select the output path to see your prediction .
-      ```
   ```
   
   ## ENJOY
