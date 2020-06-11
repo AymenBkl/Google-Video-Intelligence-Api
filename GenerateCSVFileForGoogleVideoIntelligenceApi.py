@@ -18,7 +18,7 @@ for i in range(0,duration):
     end += increment
     objects  = bucket + "," + str(round(begin,2)) + "," + str(round(end,2))
     files.append(objects)
-with open(videoName+".csv","w") as myCsv:
+with open("csv/"+videoName+".csv","w") as myCsv:
     writer = csv.writer(myCsv,delimiter="\n")
     writer.writerow(files)
 
